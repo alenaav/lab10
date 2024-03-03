@@ -1,0 +1,12 @@
+/Users/kirill/Desktop/VehicleLibrary/bin/Debug/net7.0/AutomobileLibrary.deps.json
+/Users/kirill/Desktop/VehicleLibrary/bin/Debug/net7.0/AutomobileLibrary.dll
+/Users/kirill/Desktop/VehicleLibrary/bin/Debug/net7.0/AutomobileLibrary.pdb
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.csproj.AssemblyReference.cache
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.AssemblyInfoInputs.cache
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.AssemblyInfo.cs
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.csproj.CoreCompileInputs.cache
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.dll
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/refint/AutomobileLibrary.dll
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/AutomobileLibrary.pdb
+/Users/kirill/Desktop/VehicleLibrary/obj/Debug/net7.0/ref/AutomobileLibrary.dll
