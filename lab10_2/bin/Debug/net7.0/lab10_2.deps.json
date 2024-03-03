@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "lab10_2/1.0.0": {
+        "dependencies": {
+          "AutomobileLibrary": "1.0.0"
+        },
+        "runtime": {
+          "lab10_2.dll": {}
+        }
+      },
+      "AutomobileLibrary/1.0.0": {
+        "runtime": {
+          "AutomobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab10_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutomobileLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
