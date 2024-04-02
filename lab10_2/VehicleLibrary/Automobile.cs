@@ -36,6 +36,11 @@ namespace AutomobileLibrary
                 return Id == i.Id;
             return false;
         }
+
+        public override int GetHashCode()
+        {
+            return Id.GetHashCode();
+        }
     }
 
     public class Automobile : IInit, ICloneable, IComparable
@@ -46,6 +51,7 @@ namespace AutomobileLibrary
         private int price;
         private int clearance;
         private IdNumber id;
+
         protected static Random rand = new Random();
 
         public IdNumber Id { get { return id; } }
@@ -108,6 +114,19 @@ namespace AutomobileLibrary
             Price = price;
             Clearance = groundClearance;
             this.id = id;
+        }
+
+        public override int GetHashCode()
+        {
+            return id.GetHashCode()
+                + Brand.GetHashCode()
+                + Year.GetHashCode()
+                + Color.GetHashCode()
+                + Price.GetHashCode()
+                + Clearance.GetHashCode();
+
+
+
         }
 
         [ExcludeFromCodeCoverage]
@@ -203,10 +222,11 @@ namespace AutomobileLibrary
             return String.Compare(this.brand, m.brand);
         }
 
-        public object Clone()
+        public virtual object Clone()
         {
             return new Automobile(Brand, Year, Color, Price, Clearance, id);
         }
+
         public Automobile ShallowCopy()
         {
             return (Automobile)this.MemberwiseClone();

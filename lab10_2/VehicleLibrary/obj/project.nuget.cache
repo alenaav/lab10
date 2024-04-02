@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2w3pqMI80FgYpxnXuPecirF9JIu5b8SVYsda/Gdg2j45lF2i6e8ELC1mgWLDA30Dhd39rbZXezmvEL/MuRgaXg==",
+  "dgSpecHash": "U4DAzQ6I+KclaQ2kUuJkaXZprVYDbuQ7KrzQuVPR0MUmbg9e0oJK345S03FOP9UhxcUFm5+SHdylzECGmQCvYA==",
   "success": true,
-  "projectFilePath": "/Users/kirill/Desktop/VehicleLibrary/AutomobileLibrary.csproj",
+  "projectFilePath": "/Users/kirill/Desktop/lab10aa/VehicleLibrary/AutomobileLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

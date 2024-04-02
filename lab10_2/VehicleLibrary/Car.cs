@@ -91,6 +91,7 @@ namespace AutomobileLibrary
         {
             return base.ToString() + $", Количество мест = {SeatCount}, Максимальная скорость(км/ч): {MaxSpeed}";
         }
+
         public override bool Equals(object obj)
         {
             if (obj == null || GetType() != obj.GetType())
@@ -99,5 +100,16 @@ namespace AutomobileLibrary
             Car v = (Car)obj;
             return SeatCount == v.SeatCount && MaxSpeed == v.MaxSpeed;
         }
+
+        public Automobile GetBase
+        {
+            get => new Automobile(Brand, Year, Color, Price, Clearance, Id);
+        }
+
+        public override object Clone()
+        {
+            return new Car(Brand, Year, Color, Price, Clearance, Id, SeatCount, MaxSpeed);
+        }
+
     }
 }
