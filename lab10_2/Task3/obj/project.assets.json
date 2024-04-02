@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AutomobileLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AutomobileLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutomobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomobileLibrary/1.0.0": {
+      "type": "project",
+      "path": "../VehicleLibrary/AutomobileLibrary.csproj",
+      "msbuildProject": "../VehicleLibrary/AutomobileLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AutomobileLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/kirill/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/kirill/Desktop/lab10aa/Task3/Task3.csproj",
+      "projectName": "Task3",
+      "projectPath": "/Users/kirill/Desktop/lab10aa/Task3/Task3.csproj",
+      "packagesPath": "/Users/kirill/.nuget/packages/",
+      "outputPath": "/Users/kirill/Desktop/lab10aa/Task3/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/kirill/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/kirill/Desktop/lab10aa/VehicleLibrary/AutomobileLibrary.csproj": {
+              "projectPath": "/Users/kirill/Desktop/lab10aa/VehicleLibrary/AutomobileLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
